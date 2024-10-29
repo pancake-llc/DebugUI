@@ -4,5 +4,6 @@ namespace DebugUI
     {
         public string Title { get; set; } = "Debug";
         public bool Draggable { get; set; } = true;
+        public bool Foldout { get; set; } = true;
     }
 }

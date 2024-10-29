@@ -44,6 +44,12 @@ namespace DebugUI.UIElements
             }
         }
 
+        public bool Foldout 
+        {
+            get => foldout.value;
+            set => foldout.value = value;
+        }
+
         public string Text
         {
             get => text;

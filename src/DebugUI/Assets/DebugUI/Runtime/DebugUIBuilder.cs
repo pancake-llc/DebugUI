@@ -35,6 +35,7 @@ namespace DebugUI
             if (windowOptions != null)
             {
                 window.Text = windowOptions.Title;
+                window.Foldout = windowOptions.Foldout;
                 window.SetDraggable(windowOptions.Draggable);
             }
 
